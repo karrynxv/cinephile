@@ -1,0 +1,30 @@
+@import url(fonts.scss);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    outline: none;
+    font-family: 'Raleway';
+    font-weight: 400;
+}
+body{
+    background: #141414;
+}
+.container{
+    max-width: 1370px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.none{
+    display: none !important;
+    visibility: hidden !important;
+}
+@import url(components/Navbar/Navbar.scss);
+@import url(components/Upcoming/Upcoming.scss);
+@import url(components/TAM/TAM.scss);
+@import url(components/ItemBlock/ItemBlock.scss);
+@import url(components/Content/Content.scss);
